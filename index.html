@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Ashley Huszti - 101406518</title>
+</head>
+
+<body>
+    <h1>Lab #3</h1>
+    <p>Ashley Huszti</p>
+
+    <div id="container_1">
+        <h3>User Registration Form</h3>
+        <form>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" placeholder="Username"><br>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Email address"><br>
+            <br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Password"><br>
+            <br>
+            <button type="button" onclick="validateForm()">Submit</button>
+        </form>
+    </div>
+
+    <div id="container_2">
+        <h3>Search Ikea Products</h3>
+        <label for="searchInput">Search:</label>
+        <input type="text" placeholder="Find what you need" id="searchInput">
+        <br><br>
+        <ul id="productList"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
